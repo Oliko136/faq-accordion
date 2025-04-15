@@ -19,6 +19,7 @@
     --spacing-150: 1.5rem;
     --spacing-200: 2rem;
     --spacing-250: 2.5rem;
+    --spacing-300: 3rem;
 }
 
 @font-face {
@@ -61,6 +62,7 @@ img {
 }
 
 button {
+    font-family: inherit;
     cursor: pointer;
 }
 
