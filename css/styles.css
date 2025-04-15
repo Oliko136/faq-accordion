@@ -95,6 +95,21 @@
 
 .faq_answer {
     display: none;
+    padding-top: var(--spacing-150);
+    line-height: var(--line-height-text-mobile);
+}
+
+.faq_button:hover .faq_question,
+.faq_button:focus .faq_question {
+    color: var(--pink);
+}
+
+.faq_button:focus .faq_icon {
+    background-image: url('../assets/images/icon-minus.svg');
+}
+
+.faq_button:focus + .faq_answer {
+    display: block;
 }
 
 @media screen and (min-width: 1440px) {
@@ -131,5 +146,9 @@
     .faq_question {
         width: 28.6rem;
         font-size: var(--font-size-question-desktop);
+    }
+
+    .faq_answer {
+        line-height: var(--line-height-text-desktop);
     }
 }
