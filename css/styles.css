@@ -26,6 +26,23 @@
     box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
 }
 
+.card_header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
+
+.icon-star {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-mobile);
+    color: var(--dark-purple);
+}
+
 @media screen and (min-width: 1440px) {
     .bg-image {
         height: 20rem;
@@ -38,5 +55,14 @@
         width: 32.5rem;
         padding: var(--spacing-250);
         border-radius: 1rem;
+    }
+
+    .icon-star {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .title {
+        font-size: var(--font-size-title-desktop);
     }
 }
