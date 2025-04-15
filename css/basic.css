@@ -63,3 +63,16 @@ img {
 button {
     cursor: pointer;
 }
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-text-mobile);
+    color: var(--pale-purple);
+    background-color: var(--light-pink);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: var(--font-size-text-desktop);
+    }
+}
