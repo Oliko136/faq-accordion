@@ -1,3 +1,26 @@
+:root {
+    --white: #FFFFFF;
+    --light-pink: #F8EEFF;
+    --pink: #AD28EB;
+    --dark-purple: #301534;
+    --pale-purple: #8B6990;
+    --font-family: 'Work Sans', sans-serif;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-size-title-desktop: 3.5rem;
+    --font-size-title-mobile: 2rem;
+    --font-size-question-desktop: 1.125rem;
+    --font-size-question-mobile: 1rem;
+    --font-size-text-desktop: 1rem;
+    --font-size-text-mobile: 0.875rem;
+    --line-height-text-desktop: 1.5rem;
+    --line-height-text-mobile: 1.3125rem;
+    --spacing-125: 1.25rem;
+    --spacing-150: 1.5rem;
+    --spacing-200: 2rem;
+    --spacing-250: 2.5rem;
+}
+
 html {
     box-sizing: border-box;
 }
