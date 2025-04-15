@@ -21,6 +21,24 @@
     --spacing-250: 2.5rem;
 }
 
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/WorkSans-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/WorkSans-SemiBold.ttf) format('truetype');
+    font-weight: var(--font-weight-semibold);
+}
+
+@font-face {
+    font-family: var(--font-family);
+    src: url(../assets/fonts/static/WorkSans-Bold.ttf) format('truetype');
+    font-weight: var(--font-weight-bold);
+}
+
 html {
     box-sizing: border-box;
 }
