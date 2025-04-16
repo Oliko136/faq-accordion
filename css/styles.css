@@ -80,6 +80,7 @@
     text-align: left;
 
     color: var(--dark-purple);
+    transition: color 250ms ease-in;
 }
 
 .faq_icon {
